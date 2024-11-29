@@ -1,0 +1,131 @@
+
+
+/* General Layout */
+body, html, .main, .clr { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; }
+
+.main { 
+    background-color: #fff; }
+
+.clr { 
+    clear: both; 
+    width: 100%; 
+    font-size: 0px; 
+    line-height: 0px; }
+
+/* Header Layout */
+.header { 
+    background: url(/src/images/header_bg.jpg) repeat-x top; 
+    height: 220px; }
+
+.header_resize { 
+    margin: 0 auto; 
+    padding-left: 40px; 
+    width: 830px; }
+
+.header .logo {
+     float: left; }
+
+/* Menu Layout */
+.menu_nav { 
+    float: left;
+     width: 650px; }
+
+.menu_nav ul {
+     margin: 0; 
+     padding: 20px 0 0; 
+     list-style: none; }
+
+.menu_nav ul li { 
+    margin-right: 12px; 
+    float: left; }
+
+.menu_nav ul li a { 
+    display: block; 
+    padding: 6px 12px; 
+    background: #f00 url(/src/images/menu.gif) repeat-x top; }
+
+.menu_nav ul li a:hover, .menu_nav ul li.active a {
+     background: url(/src/images/menu_a.gif) repeat-x top; }
+
+/* Content Layout */
+.content { 
+    padding-bottom: 16px; }
+
+.content_resize { 
+    border-top: none; 
+    margin: 0 auto; 
+    padding: 0 40px; 
+    width: 890px; }
+
+.content .mainbar { 
+    float: left;
+     width: 630px; }
+
+.content .sidebar { 
+    float: right; 
+    width: 236px; }
+
+.content .mainbar .article_vert { 
+    float: left; 
+    width: 297px; 
+    padding: 0 16px 0 0; }
+
+/* Sidebar and Lists */
+ul.sb_menu, ul.ex_menu {
+     list-style: none; 
+     padding: 0; }
+
+ul.sb_menu li, ul.ex_menu li {
+     padding: 4px 0; }
+
+/* Footer Layout */
+.footer { 
+    background-color: #222222; 
+    border-top: 1px solid #505050; 
+    padding: 16px 0; }
+.footer_resize { 
+    margin: 0 auto; 
+    padding: 0 40px;
+     width: 890px; }
+
+.fbg {
+     background-color: #222922; 
+   
+}
+.fbg_resize{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: column;
+}
+
+.fbg_resize .col {
+     float: left;
+     }
+    
+ .imagstyl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 8px 8px;
+     }
+
+     .col c2 p{
+        text-align: justify;
+
+     }
+
+/* Floating Columns */
+.fbg_resize .c1, .fbg_resize .c2, .fbg_resize .c3 { 
+    padding: 0 16px; }
+
+/* Form Layout */
+ol { 
+    list-style: none; }
+
+ol li { 
+    clear: both; 
+    display: block; }
