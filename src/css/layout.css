@@ -17,7 +17,7 @@ body, html, .main, .clr {
 
 /* Header Layout */
 .header { 
-    background: url(src/images/header_bg.jpg) repeat-x top; 
+    background: url(../images/header_bg.jpg) repeat-x top; 
     height: 220px; }
 
 .header_resize { 
@@ -45,10 +45,10 @@ body, html, .main, .clr {
 .menu_nav ul li a { 
     display: block; 
     padding: 6px 12px; 
-    background: #f00 url(src/images/menu.gif) repeat-x top; }
+    background: #f00 url(../images/menu.gif) repeat-x top; }
 
 .menu_nav ul li a:hover, .menu_nav ul li.active a {
-     background: url(src/images/menu_a.gif) repeat-x top; }
+     background: url(../images/menu_a.gif) repeat-x top; }
 
 /* Content Layout */
 .content { 
