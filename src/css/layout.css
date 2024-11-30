@@ -123,7 +123,7 @@ ul.sb_menu li, ul.ex_menu li {
     padding: 0 16px; }
 
 /* Form Layout */
-ol { 
+ol,ul { 
     list-style: none; }
 
 ol li { 
