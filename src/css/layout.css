@@ -133,3 +133,41 @@ ol,ul {
 ol li { 
     clear: both; 
     display: block; }
+.article form {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Labels in the first column, inputs in the second */
+    gap: 12px 16px; /* Space between rows and columns */
+    align-items: center;
+}
+
+form ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li {
+    display: contents; /* Allows li to disappear but keep its children in the grid */
+}
+
+label {
+    justify-self: end; /* Aligns labels to the right */
+    margin-right: 8px;
+}
+
+input.text, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="image"] {
+    grid-column: span 2; /* Makes the button span across both columns */
+    justify-self: start; /* Align the button to the left */
+}
+
+.clr {
+    clear: both;
+}
+
