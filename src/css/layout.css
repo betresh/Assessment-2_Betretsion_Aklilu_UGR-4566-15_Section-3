@@ -110,9 +110,19 @@ ul.sb_menu li, ul.ex_menu li {
      display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-column-gap: 8px;
+    grid-column-gap: 5px;
     grid-row-gap: 8px;
      }
+.col.c2 img {
+    float: left; 
+    margin-right: 12px; 
+    margin-bottom: 8px; 
+}
+
+.col.c2 p {
+    overflow: hidden; 
+}
+
 
      .col c2 p{
         text-align: justify;
