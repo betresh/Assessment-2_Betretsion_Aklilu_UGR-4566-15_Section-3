@@ -128,10 +128,13 @@ ul.sb_menu li, ul.ex_menu li {
         text-align: justify;
 
      }
-aboutimg{
+.aboutimg{
     float=left;
 }
-
+.fmenu{
+    display: flex; 
+    gap: 12px; 
+}
 /* Floating Columns */
 .fbg_resize .c1, .fbg_resize .c2, .fbg_resize .c3 { 
     padding: 0 16px; }
