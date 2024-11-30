@@ -107,10 +107,11 @@ ul.sb_menu li, ul.ex_menu li {
      }
     
  .imagstyl{
-    display: grid;
+     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 8px 8px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
      }
 
      .col c2 p{
